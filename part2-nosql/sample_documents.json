@@ -1,0 +1,58 @@
+
+[
+  {
+    "_id": "ELEC-1001",
+    "category": "Electronics",
+    "name": "Smartphone X12",
+    "brand": "TechNova",
+    "price": 799.99,
+    "currency": "USD",
+    "specifications": {
+      "warranty_years": 2,
+      "voltage": "110-240V",
+      "battery": {
+        "capacity_mAh": 4500,
+        "fast_charging": true
+      }
+    },
+    "connectivity": ["5G", "WiFi 6", "Bluetooth 5.3"],
+    "in_stock": true
+  },
+  {
+    "_id": "CLOT-2001",
+    "category": "Clothing",
+    "name": "Men's Running Jacket",
+    "brand": "AeroFit",
+    "price": 129.50,
+    "currency": "USD",
+    "sizes_available": ["S", "M", "L", "XL"],
+    "material": {
+      "primary": "Polyester",
+      "secondary": "Elastane",
+      "care_instructions": [
+        "Machine wash cold",
+        "Do not bleach"
+      ]
+    },
+    "color_options": ["Black", "Blue", "Red"],
+    "in_stock": true
+  },
+  {
+    "_id": "GROC-3001",
+    "category": "Groceries",
+    "name": "Organic Almond Milk",
+    "brand": "GreenHarvest",
+    "price": 3.99,
+    "currency": "USD",
+    "expiry_date": "2026-07-15",
+    "nutrition": {
+      "serving_size_ml": 250,
+      "calories": 60,
+      "fat_g": 2.5,
+      "carbohydrates_g": 8,
+      "protein_g": 1
+    },
+    "allergens": ["Almonds"],
+    "in_stock": true
+  }
+]
