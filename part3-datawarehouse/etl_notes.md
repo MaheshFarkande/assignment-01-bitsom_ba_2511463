@@ -15,5 +15,5 @@ All category values were standardized into a controlled set: Electronics, Clothi
 ### Decision 3 — Set Missing Store City Values
 Problem:
 Several records contained NULL or blank store_city values, even though the same store_name appeared elsewhere with a valid city. Leaving these values NULL would weaken dimensional analysis by geography and break grouping consistency.  
-Resolution:
+    Resolution:
 Missing store_city values were imputed using the most frequently occurring city associated with the same store_name in other records (e.g., “Mumbai Central” → “Mumbai”). This produced a complete and consistent dim_store table suitable for location-based reporting.
